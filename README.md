@@ -46,7 +46,9 @@ Scraping
 =======
 
 1. I should end up with a few files for the following sites (or more authoritative sources if you can find them)
-* http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+* http://en.wikipedia.org/wiki/List_of_time_zones
+  * http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  * http://en.wikipedia.org/wiki/List_of_time_zone_abbreviations
 * http://www.timeanddate.com/library/abbreviations/timezones/
 * (or possibly the subsites such as http://www.timeanddate.com/library/abbreviations/timezones/na/)
 * http://wwp.greenwichmeantime.com/to/abbreviations/index.htm
