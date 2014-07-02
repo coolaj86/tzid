@@ -46,6 +46,8 @@ Scraping
 =======
 
 1. I should end up with a few files for the following sites (or more authoritative sources if you can find them)
+* http://jdk-source-code.googlecode.com/svn/trunk/jdk5.0_src/j2se/src/share/classes/sun/text/resources/
+  * http://jdk-source-code.googlecode.com/svn/trunk/jdk5.0_src/j2se/src/share/classes/sun/text/resources/DateFormatZoneData_en_CA.java 
 * http://en.wikipedia.org/wiki/List_of_time_zones
   * http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   * http://en.wikipedia.org/wiki/List_of_time_zone_abbreviations
