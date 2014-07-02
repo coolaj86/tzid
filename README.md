@@ -1,8 +1,8 @@
 tzid
 ====
 
-> "...computation of local time depends heavily on the whim of politicians and is thus difficult to get correct..." - 
-> http://www.sqlite.org/lang_datefunc.html
+> "...computation of local time depends heavily on the whim of politicians and is thus difficult to get correct..."
+> - http://www.sqlite.org/lang_datefunc.html
 
 Bidirectional conversion between tzids and timezone abbreviations.
 
