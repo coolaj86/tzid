@@ -9,6 +9,10 @@ Similar Projects from which I will steal code:
 * <https://www.npmjs.org/package/tz-db>
 * <https://www.npmjs.org/package/tz-lookup>
 
+And here's the JackPot:
+
+* http://jdk-source-code.googlecode.com/svn/trunk/jdk5.0_src/j2se/src/share/classes/sun/text/resources/DateFormatZoneData.java
+
 Goal
 ---
 
@@ -46,6 +50,7 @@ Scraping
 =======
 
 1. I should end up with a few files for the following sites (or more authoritative sources if you can find them)
+* JACKPOT: http://jdk-source-code.googlecode.com/svn/trunk/jdk5.0_src/j2se/src/share/classes/sun/text/resources/DateFormatZoneData.java
 * http://jdk-source-code.googlecode.com/svn/trunk/jdk5.0_src/j2se/src/share/classes/sun/text/resources/
   * http://jdk-source-code.googlecode.com/svn/trunk/jdk5.0_src/j2se/src/share/classes/sun/text/resources/DateFormatZoneData_en_CA.java 
 * http://en.wikipedia.org/wiki/List_of_time_zones
