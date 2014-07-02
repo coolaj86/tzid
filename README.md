@@ -16,6 +16,10 @@ And here's the JackPot:
 * http://pag-www.gtisc.gatech.edu/chord/examples/jdk/sun/text/resources/DateFormatZoneData.java.html
 * http://www.java2s.com/Open-Source/Java/6.0-JDK-Modules/j2me/sun/text/resources/DateFormatZoneData.java.htm
 
+And the Uber Uber JackPot:
+
+* http://momentjs.com/downloads/moment-timezone-with-data-2010-2020.js
+
 Goal
 ---
 
