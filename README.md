@@ -3,6 +3,12 @@ tzid
 
 Bidirectional conversion between tzids and timezone abbreviations.
 
+Similar Projects from which I will steal code:
+
+* <https://www.npmjs.org/package/cldr_timezones>
+* <https://www.npmjs.org/package/tz-db>
+* <https://www.npmjs.org/package/tz-lookup>
+
 Goal
 ---
 
