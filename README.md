@@ -3,8 +3,6 @@ tzid
 
 Bidirectional conversion between tzids and timezone abbreviations.
 
-`var tzid = Intl.DateTimeFormat().resolved.timeZone;`
-
 Similar Projects from which I will steal code:
 
 * <https://www.npmjs.org/package/cldr_timezones>
@@ -22,6 +20,11 @@ And the Uber Uber JackPot:
 
 * http://momentjs.com/downloads/moment-timezone-with-data-2010-2020.js
 * https://github.com/Canop/tzdetect.js/blob/master/tzdetect.js
+
+The HOLY GRAIL:
+
+* Works in Chrome `Intl.DateTimeFormat().resolved.timeZone;`
+* Fails in Fireox `Intl.DateTimeFormat().resolvedOptions().timeZone`
 
 Goal
 ---
