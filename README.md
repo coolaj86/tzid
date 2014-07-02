@@ -8,10 +8,13 @@ Similar Projects from which I will steal code:
 * <https://www.npmjs.org/package/cldr_timezones>
 * <https://www.npmjs.org/package/tz-db>
 * <https://www.npmjs.org/package/tz-lookup>
+* <https://github.com/Canop/tzdetect.js>
 
 And here's the JackPot:
 
 * http://jdk-source-code.googlecode.com/svn/trunk/jdk5.0_src/j2se/src/share/classes/sun/text/resources/DateFormatZoneData.java
+* http://pag-www.gtisc.gatech.edu/chord/examples/jdk/sun/text/resources/DateFormatZoneData.java.html
+* http://www.java2s.com/Open-Source/Java/6.0-JDK-Modules/j2me/sun/text/resources/DateFormatZoneData.java.htm
 
 Goal
 ---
