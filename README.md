@@ -19,6 +19,7 @@ And here's the JackPot:
 And the Uber Uber JackPot:
 
 * http://momentjs.com/downloads/moment-timezone-with-data-2010-2020.js
+* https://github.com/Canop/tzdetect.js/blob/master/tzdetect.js
 
 Goal
 ---
