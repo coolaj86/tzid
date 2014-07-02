@@ -50,6 +50,7 @@ Scraping
 * http://www.timeanddate.com/library/abbreviations/timezones/
 * (or possibly the subsites such as http://www.timeanddate.com/library/abbreviations/timezones/na/)
 * http://wwp.greenwichmeantime.com/to/abbreviations/index.htm
+* http://www.timetemperature.com/tzus/idaho_time_zone.shtml
 2. I should be able to copy and paste the contents of the files into Chrome's debug console and reacquire the data.
 3. jQuery should be used to scrape
 
