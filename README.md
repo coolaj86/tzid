@@ -29,8 +29,12 @@ The HOLY GRAIL:
 * Works in Chrome `Intl.DateTimeFormat().resolved.timeZone;`
 * Fails in Fireox `Intl.DateTimeFormat().resolvedOptions().timeZone`
 
+Guessing user continent
+
+* http://stackoverflow.com/questions/673905/best-way-to-determine-users-locale-within-browser
+
 Goal
----
+=====
 
 I need a library which can convert between a JavaScript Locale string such as "GMT-0600 (MDT)" and a Timezone ID (TZID) such as "America/Denver" and back which works in node.js (and should also work in the browser);
 
@@ -39,14 +43,13 @@ Example:
 ```javascript
 tz = require('tzid');
 
-tz.toTzid("EDT") // "America/New York"
-tz.toTzid("EST") // "America/New York"
+tz.toTzid(offset | date, abbr);
+tz.toTzid("-0400", "EDT") // [{ tzid: "America/New York", dst:"-0400", std: "-0500", current: "dst" }]
+// when a date is provided, it can tell you if it's std or dst for that date
+tz.toTzid("-0500", "EST", date) // [{ tzid: "America/New York", dst:"-0400", std: "-0500", current: "dst" }]
 
-tz.toTzid("EDT", true) // { tzid: "America/New York", offset: "-0400", dst: "+0100" }
-tz.toTzid("EST", true) // { tzid: "America/New York", offset: "-0500", dst: false }
-
-tz.toLocale("America-New_York") // { locale: "EST", offset: "-0500" }
-tz.toLocale("America/New-York", true) // { locale: "EDT", offset: "-0400" }
+tz.toLocale("America-New_York") // { locale: "EST", dst:"-0400", std: "-0500" }
+tz.toLocale("America/New-York", date) // { locale: "EDT", dst:"-0400", std: "-0500", current: "dst" }
 
 tz.toLocale("US_Eastern", "-0500") // "EST"
 tz.toLocale("America/NYC", "-0500") // "EST"
